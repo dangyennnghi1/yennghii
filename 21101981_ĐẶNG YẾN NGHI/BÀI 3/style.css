@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #540b0e;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    color: #540b0e;
+}
+
+.send-button {
+    background-color: #9e2a2b;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}

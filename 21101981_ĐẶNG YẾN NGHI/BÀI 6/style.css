@@ -1,0 +1,44 @@
+body {
+    background-image: url('https://cdn.glitch.global/80758bd4-302e-40a8-9750-104854483979/2e7cba1a04bac351fe3312f2a7407548.jpg?v=1709381916992');
+    background-size: cover;
+    background-position: center;
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    text-align: center; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 190%;
+    margin-bottom: 20px;
+}
+
+.letter {
+    flex: 1;
+    font-size: 35px;
+    color: #003566; 
+}
+
+.number {
+    flex: 1;
+    font-size: 36px;
+    color: #6d6875; 
+}
+
+.row span:not(:last-child) {
+    margin-right: 0px; 
+}
